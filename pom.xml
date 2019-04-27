@@ -106,17 +106,6 @@
     </dependency>
 
 
-    <dependency>
-      <groupId>com.gjf.zzu</groupId>
-      <artifactId>dayucore</artifactId>
-      <version>1.1</version>
-    </dependency>
-
-    <dependency>
-      <groupId>com.gjf.zzu</groupId>
-      <artifactId>dayuapi</artifactId>
-      <version>1.1</version>
-    </dependency>
   </dependencies>
   <build>
     <finalName>SpringBootSample</finalName>

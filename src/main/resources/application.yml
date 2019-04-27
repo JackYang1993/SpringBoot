@@ -4,7 +4,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/cmfz?useSSL=false
     username: root
-    password: yhm1211
+    password: root
   mvc:
     view:
       prefix: /
@@ -20,7 +20,7 @@ mybatis:
 
 
 server:
-  port: 1211
+  port: 8088
   context-path: /SpringBootSample
   jsp-servlet:
     init-parameters:
