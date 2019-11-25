@@ -15,13 +15,13 @@ spring:
       force: true
 mybatis:
   mapper-locations: classpath:io/yg/mapper/*Mapper.xml
-  type-aliases-package: com.gjf.entity
+  type-aliases-package: io.gjf.entity
 
 
 
 server:
   port: 8088
-  context-path: /SpringBootSample
+  context-path: /SharedFS
   jsp-servlet:
     init-parameters:
      development: true
