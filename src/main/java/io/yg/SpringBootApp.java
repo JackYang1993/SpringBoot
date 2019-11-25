@@ -1,4 +1,4 @@
-package io.gjf;
+package io.yg;
 
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.config.FastJsonConfig;
@@ -15,7 +15,7 @@ import org.springframework.http.converter.HttpMessageConverter;
  */
 
 @SpringBootApplication
-@MapperScan("io.yg.dao")
+@MapperScan("com.yg.dao")
 public class SpringBootApp {
     public static void main(String[] args) {
         SpringApplication.run(SpringBootApp.class, args);

@@ -1,9 +1,0 @@
-target
-upload
-.idea
-*.iws
-*.iml
-*.ipr
-.mvn
-*.cmd
-
